@@ -29,22 +29,23 @@ export default function Footer() {
     {
       href: "https://sikrdesign.com/",
       title: "SIKR Design",
-      image: "/sikrLogo.png",
+      image: `${import.meta.env.BASE_URL}sikrLogo.png`,
       description: "Elegant accessories for bath & boat",
     },
     {
       href: "https://sikr98.github.io/CV-Website/",
       title: "Simon Kraft",
-      image: "/cvLogo.png",
+      image: `${import.meta.env.BASE_URL}cvLogo.png`,
       description: "Portfolio & professional background",
     },
     {
       href: "https://www.instagram.com/simon.solutions/",
       title: "Instagram",
-      image: "/instaLogo.png",
+      image: `${import.meta.env.BASE_URL}instaLogo.png`,
       description: "Follow our latest updates and designs",
     },
   ];
+
 
   const topTriggerRef = useRef(null);
   const bottomTriggerRef = useRef(null);
