@@ -22,7 +22,7 @@ export default function AnimatedRoutes() {
         <div className="flex-1 flex items-center justify-center max-h-[13vh] [@media(min-width:330px)]:max-h-[22vh]">
           <PageTitleWrapper />
         </div>
-        <div className="w-full px-fluid-m mx-auto pb-fluid-l md:px-fluid-xl 2xl:mb-fluid-l">
+        <div className="w-full px-fluid-m mx-auto pb-fluid-l md:px-fluid-xl">
           <Routes location={location}>
             <Route path="/" element={<PageWrapper><HomePage /></PageWrapper>} />
             <Route path="/about" element={<PageWrapper><AboutPage /></PageWrapper>} />
