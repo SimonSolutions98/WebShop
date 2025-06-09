@@ -48,7 +48,7 @@ function HamburgerMenu() {
       </div>
       <div
         ref={panelRef}
-        className={`fixed top-0 left-0 w-[35vw] max-w-[220px] z-1000 transition-transform duration-300 ease-in-out
+        className={`fixed top-0 left-0 w-[42vw] max-w-[220px] z-1000 transition-transform duration-300 ease-in-out
                     bg-secondary text-accent font-primary rounded-br-fluid-m
                     p-fluid-s pr-0 shadow-[2px_0_10px_rgba(0,0,0,0.3)] flex flex-col 
                     ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
