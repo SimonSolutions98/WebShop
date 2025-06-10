@@ -39,7 +39,7 @@ export default function Footer() {
       description: "Portfolio & professional background",
     },
     {
-      href: "https://www.instagram.com/Kraft.CreativeDesign/",
+      href: "https://www.instagram.com/kraftcreativedesign/",
       title: "Instagram",
       image: "/instaLogo.png",
       description: "Follow our latest updates and designs",
