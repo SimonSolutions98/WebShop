@@ -71,7 +71,7 @@ export default function ContactPage() {
 
   return (
     <motion.main
-      className="max-w-[1000px] mx-auto p-fluid-s pb-fluid-xl text-accent font-secondary md:mb-fluid-xl"
+      className="max-w-[1000px] mx-auto p-fluid-s pb-fluid-xl text-accent font-secondary mb-fluid-xl"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
