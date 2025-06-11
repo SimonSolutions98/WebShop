@@ -38,7 +38,7 @@ export default function HomePage() {
 
   return (
     <motion.div
-      className="grid grid-cols-2 lg:grid-cols-4 gap-fluid-m"
+      className="grid grid-cols-2 lg:grid-cols-4 gap-fluid-m lg:pt-fluid-s"
       variants={containerVariants}
       initial="hidden"
       animate="show"
