@@ -53,7 +53,7 @@ export default function ProductPage() {
 
   return (
     <motion.div
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 [@media(min-width:1400px)]:grid-cols-4 gap-fluid-s max-w-[80vw] mx-auto mt-fluid-xs pb-fluid-m [@media(min-width:330px)]:pb-0 2xl:mb-fluid-l"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 [@media(min-width:1400px)]:grid-cols-4 gap-fluid-s max-w-[80vw] lg:max-w-[70vw] mx-auto mt-fluid-xs pb-fluid-m [@media(min-width:330px)]:pb-0 2xl:mb-fluid-l"
       variants={containerVariants}
       initial="hidden"
       animate="show"

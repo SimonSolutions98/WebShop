@@ -29,7 +29,7 @@
   /* === Fluid Spacing === */
   --spacing-fluid-xs: clamp(6px, calc(6px + 7.00 * ((100vw - 320px) / 1600) + 7.00 * ((100vw - 568px) / 512)), 12px);
   --spacing-fluid-s:  clamp(9px, calc(9px + 11.50 * ((100vw - 320px) / 1600) + 11.50 * ((100vw - 568px) / 512)), 28px);
-  --spacing-fluid-m:  clamp(12px, calc(12px + 19.00 * ((100vw - 320px) / 1600) + 19.00 * ((100vw - 568px) / 512)), 50px);
+  --spacing-fluid-m:  clamp(12px, calc(12px + 19.00 * ((100vw - 320px) / 1600) + 19.00 * ((100vw - 568px) / 512)), 42px);
   --spacing-fluid-l:  clamp(18px, calc(18px + 30 * ((100vw - 320px) / 1600) + 26.50 * ((100vw - 568px) / 512)), 60px);
   --spacing-fluid-xl: clamp(50px, calc(50px + (200) * ((100vw - 1024px) / (1920 - 1024))), 250px);
 
