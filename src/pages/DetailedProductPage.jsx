@@ -56,7 +56,7 @@ export default function DetailedProductPage() {
       <div className="bg-secondary p-[8px] rounded-lg grid grid-cols-1 lg:grid-cols-[repeat(2,_minmax(0,_40vw))] lg:justify-center items-start text-left lg:gap-fluid-m lg:bg-primary">
         
         {/* Left: Image - Sticky on Desktop */}
-        <div className="w-full aspect-square mx-auto lg:sticky lg:top-60 lg:self-start">
+        <div className="w-full aspect-square mx-auto">
           <ImageCarousel images={images} alt={name} className="w-full h-full" />
         </div>
 
